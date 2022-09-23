@@ -5,8 +5,8 @@
    },
    "content_scripts": [ {
       "js": ["js/cookie.js" ],
-      "matches": [ "https://qiandao.today/*"]
-   } ],
+      "matches": ["<all_urls>","*://*/*","*://localhost/*"]
+      } ],
    "default_locale": "en",
    "description": "__MSG_description__",
    "icons": {
